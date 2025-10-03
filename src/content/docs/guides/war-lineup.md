@@ -1,6 +1,6 @@
 ---
 title: War Lineup
-description: A guide in my new Starlight docs site.
+description: A guide to War Lineup command in botward discord bot.
 ---
 
 The `/war_lineup` command in botward discord bot allows you to see the war lineups of all the clans in your league group.
