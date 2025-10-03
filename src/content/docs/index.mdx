@@ -6,16 +6,27 @@ hero:
   tagline: This documentation site will guide you through how to use Botward.
   actions:
     - text: Get Started
-      link: /guides/war-lineup/
+      link: /guides/me/
       icon: right-arrow
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
 ## Recent Guides
 
 <CardGrid stagger>
-  <Card title="War Lineup" icon="sword-cross">
-    Learn how to use the `/war_lineup` command.
-  </Card>
+  <LinkCard
+    title="Player Profile"
+    icon="user-round-plus"
+    href="/guides/me/"
+    style="cursor: pointer;"
+    description="Learn how to use the `/me` command."
+  />
+  <LinkCard
+    title="Player Stats"
+    icon="chart-area"
+    href="/guides/my-stats/"
+    style="cursor: pointer;"
+    description="Learn how to use the `/my_stats` command."
+  />
 </CardGrid>

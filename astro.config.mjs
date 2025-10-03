@@ -19,7 +19,6 @@ export default defineConfig({
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "War Lineup", slug: "guides/war-lineup" },
             { label: "Me", slug: "guides/me" },
             { label: "My Stats", slug: "guides/my-stats" },
           ],
